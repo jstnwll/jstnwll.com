@@ -1,14 +1,14 @@
 {
-  "name": "jstnwll.com-update",
+  "name": "jstnwll.com",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/jstnwll/jstnwll.com-update#readme",
+  "description": "Main profile website",
+  "homepage": "https://github.com/jstnwll/jstnwll.com#readme",
   "bugs": {
-    "url": "https://github.com/jstnwll/jstnwll.com-update/issues"
+    "url": "https://github.com/jstnwll/jstnwll.com/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jstnwll/jstnwll.com-update.git"
+    "url": "git+https://github.com/jstnwll/jstnwll.com.git"
   },
   "license": "ISC",
   "author": "",
