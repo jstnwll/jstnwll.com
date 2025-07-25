@@ -11,12 +11,12 @@
 </head>
 
 <body class="font-sans bg-teal-200 scroll-smooth">
-  <nav class="bg-teal-200 px-10 py-5 fixed top-0 left-0 right-0">
+  <nav class="bg-teal-200 px-4 md:px-8 lg:px-10 py-3 md:py-4 lg:py-5 fixed top-0 left-0 right-0">
     <div class="flex justify-between items-center">
-      <span class="inline-block font-medium text-5xl hover:-skew-2">
+      <span class="inline-block font-medium text-3xl md:text-4xl lg:text-5xl hover:-skew-2">
         <a href="#hero">JW</a>
       </span>
-      <span class="flex gap-x-5 text-2xl font-medium">
+      <span class="flex gap-x-2 md:gap-x-4 lg:gap-x-5 text-lg md:text-xl lg:text-2xl font-medium">
         <a href="#about" class="hover:-skew-2">About</a>
         <a href="#projects" class="hover:-skew-2">Projects</a>
         <a href="#contact" class="hover:-skew-2">Contact</a>
@@ -24,8 +24,9 @@
     </div>
   </nav>
   <main class="snap-y snap-mandatory overflow-y-scroll h-screen">
-    <section id="hero" class="bg-teal-200 px-28 min-h-screen snap-start flex flex-col justify-center items-start">
-      <h1 class="text-7xl font-medium">
+    <section id="hero"
+      class="bg-teal-200 px-4 md:px-16 lg:px-28 min-h-screen snap-start flex flex-col justify-center items-start">
+      <h1 class="text-4xl md:text-6xl lg:text-7xl font-medium">
         Justin Willemsen
         <br>
         Software
@@ -34,11 +35,11 @@
       </h1>
     </section>
 
-    <section id="about" class="bg-teal-50 min-h-screen pt-36 px-28 snap-start">
-      <h2 class="text-6xl font-medium border-b-2 pb-5">
+    <section id="about" class="bg-teal-50 min-h-screen pt-20 md:pt-28 lg:pt-36 px-4 md:px-16 lg:px-28 snap-start">
+      <h2 class="text-3xl md:text-5xl lg:text-6xl font-medium border-b-2 pb-2 md:pb-4 lg:pb-5">
         About
       </h2>
-      <div class="text-3xl font-light py-20">
+      <div class="text-lg md:text-2xl lg:text-3xl font-light py-8 md:py-16 lg:py-20">
         <p>
           Hi! I'm Justin. </p>
         <br>
@@ -51,23 +52,25 @@
         </p>
         <br>
         <p>
-          Now, I’m pursuing a second career in software development to continue solving complex problems and building
+          Now, I'm pursuing a second career in software development to continue solving complex problems and building
           tools that make a difference. </p>
       </div>
 
     </section>
 
-    <section id="projects" class="bg-teal-50 min-h-screen pt-36 px-28 snap-start">
-      <h2 class="text-6xl font-medium border-b-2 pb-5">Projects</h2>
-      <div class="flex flex-col gap-y-20 text-2xl font-light py-20">
+    <section id="projects" class="bg-teal-50 min-h-screen pt-20 md:pt-28 lg:pt-36 px-4 md:px-16 lg:px-28 snap-start">
+      <h2 class="text-3xl md:text-5xl lg:text-6xl font-medium border-b-2 pb-2 md:pb-4 lg:pb-5">Projects</h2>
+      <div
+        class="flex flex-col gap-y-8 md:gap-y-16 lg:gap-y-20 text-lg md:text-xl lg:text-2xl font-light py-8 md:py-16 lg:py-20">
 
-        <div class="flex flex-col md:flex-row gap-10 items-start">
-          <img src="img/quitclock.png" class="w-64 h-auto object-contain" alt="QuitClock app screenshot">
+        <div class="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-10 items-start">
+          <img src="img/quitclock.png" class="w-full max-w-xs md:max-w-sm lg:w-64 h-auto object-contain"
+            alt="QuitClock app screenshot">
           <div>
-            <p class="text-3xl font-medium">QuitClock</p>
+            <p class="text-xl md:text-2xl lg:text-3xl font-medium">QuitClock</p>
             <p>Language: Swift</p>
             <p>Framework: SwiftUI</p>
-            <div class="flex gap-5">
+            <div class="flex gap-3 md:gap-4 lg:gap-5">
               <!-- <a href="" class=" hover:-skew-2"><i class="fa-brands fa-app-store-ios"></i></a> -->
               <a href="https://github.com/jstnwll/quit-clock" class=" hover:-skew-2"><i
                   class="fa-brands fa-github"></i></a>
@@ -75,13 +78,14 @@
           </div>
         </div>
 
-        <div class="flex flex-col md:flex-row gap-10 items-start">
-          <img src="img/splits.png" class="w-64 h-auto object-contain" alt="Splits app screenshot">
+        <div class="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-10 items-start">
+          <img src="img/splits.png" class="w-full max-w-xs md:max-w-sm lg:w-64 h-auto object-contain"
+            alt="Splits app screenshot">
           <div>
-            <p class="text-3xl font-medium">Splits: Running Calculator</p>
+            <p class="text-xl md:text-2xl lg:text-3xl font-medium">Splits: Running Calculator</p>
             <p>Language: Python</p>
             <p>Framework: Reflex</p>
-            <div class="flex gap-5">
+            <div class="flex gap-3 md:gap-4 lg:gap-5">
               <a href="https://splits-red-panda.reflex.run" class="hover:-skew-2"><i class="fa-solid fa-globe"></i></a>
               <a href="https://github.com/jstnwll/splits" class="hover:-skew-2"><i class="fa-brands fa-github"></i></a>
             </div>
@@ -91,11 +95,11 @@
       </div>
     </section>
 
-    <section id="contact" class="bg-teal-50 min-h-screen pt-36 px-28 snap-start">
-      <h2 class="text-6xl font-medium border-b-2 pb-5">
+    <section id="contact" class="bg-teal-50 min-h-screen pt-20 md:pt-28 lg:pt-36 px-4 md:px-16 lg:px-28 snap-start">
+      <h2 class="text-3xl md:text-5xl lg:text-6xl font-medium border-b-2 pb-2 md:pb-4 lg:pb-5">
         Contact
       </h2>
-      <div class="text-3xl font-light py-20">
+      <div class="text-lg md:text-2xl lg:text-3xl font-light py-8 md:py-16 lg:py-20">
         <i class="fa-solid fa-envelope"></i>
         <a href="mailto:justin@jstnwll.com" class="hover:-skew-2">justin@jstnwll.com</a>
         <br>
